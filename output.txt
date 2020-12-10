@@ -1,0 +1,21 @@
+
+Testing /root/Snyk_SpringBoot...
+
+Tested 39 dependencies for known issues, found 1 issue, 1 vulnerable path.
+
+
+Issues with no direct upgrade or patch:
+  ✗ Information Exposure [Medium Severity][https://snyk.io/vuln/SNYK-JAVA-ORGAPACHETOMCATEMBED-1048292] in org.apache.tomcat.embed:tomcat-embed-core@9.0.39
+    introduced by org.springframework.boot:spring-boot-starter-web@2.4.0 > org.springframework.boot:spring-boot-starter-tomcat@2.4.0 > org.apache.tomcat.embed:tomcat-embed-core@9.0.39
+  This issue was fixed in versions: 8.5.60, 9.0.40, 10.0.0-M10
+
+
+
+Organization:      hifibikes
+Package manager:   maven
+Target file:       pom.xml
+Project name:      com.example:demo
+Open source:       no
+Project path:      /root/Snyk_SpringBoot
+Licenses:          enabled
+
